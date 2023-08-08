@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Belanosima:wght@600&display=swap');
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+min-height: 100vh;
+max-height: 100%;
+display: flex;
+    flex-direction: column;
+
+  }
+
+  .hero{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: 100%
+    
+  }
+
+  .hero h1{
+font-size: 30px;
+color:red;
+  }
+
+  .hero p {
+    font-size: 20px;
+    color:blue
+  }
+
+  .cta {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .cta a:first-child {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: pink;
+    background-color: aquamarine;
+    border: 1px solid black;
+transition: .3s;
+  }
+
+  .cta a:first-child:hover {
+    background-color: transparent;
+    color:black;
+
+  }
+
+  .cta a:last-child {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 20px;
+    color: aquamarine;
+    background-color: black;
+    border: 1px solid black;
+    transition: .3s;
+  }
+
+  .cta a:last-child:hover {
+    background-color: transparent;
+    color:white;
+    
+  }
+
+  .row {
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .card {
+    padding: 0;
+    box-shadow: 5px 5px 5px 0px;
+  }
+
+  .card-img-top {
+    border-radius: 0;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+  }
+
+  .title h2 {
+    background-color: blueviolet;
+    width: 200px;
+  }
+
+  .carousel-inner , .carousel-item , .carousel-item-img {
+    height: 300px;
+object-fit: cover;
+
+  }
